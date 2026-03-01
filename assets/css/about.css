@@ -58,7 +58,7 @@
 }
 
 .navbar-toggler {
-  border: 1px solid brown !important; /* устанавливаем границу толщиной 1 пиксель */
+  border: 1px solid rgb(185, 185, 2) !important; /* устанавливаем границу толщиной 1 пиксель */
 }
 
 .navbar-toggler:focus {
