@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Клуб Пересвет</title>
+	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+		integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/base_styles.css">
+	<link rel="stylesheet" href="assets/css/coatches.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<picture class="header__img">
+				<img src="assets/images/logo_small.jpg" alt="" class="header__logo">
+			</picture>
+
+			<h1 class="header__title">
+				<svg viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg">
+					<path id="arc-path" fill="none" stroke="" stroke-width="2" d="M20,120 Q250,0 500,120" />
+					<text x="0" y="0" dominant-baseline="middle" text-anchor="middle" fill="gold"
+						style="text-shadow: 5px 5px 1px black, -1px -1px 1px white;">
+						<textPath href="#arc-path" startOffset="50%">Пересвет</textPath>
+					</text>
+				</svg>
+			</h1>
+
+			<h2 class="header__subtitle">
+				православный<br>спортивно-патриотический<br>клуб
+			</h2>
+
+			<nav class="navbar navbar-expand-lg bg-body-tertiary header__menu">
+				<div class="container-fluid">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent">
+						<span class="navbar__menu-title">Меню</span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item"><a class="nav-link navbar__li" href="index.html">Главная</a></li>
+							<li class="nav-item"><a class="nav-link navbar__li" href="#">Расписание</a></li>
+							<li class="nav-item"><a class="nav-link navbar__li" href="coatches.html">Тренерский состав</a></li>
+							<li class="nav-item"><a class="nav-link navbar__li" href="#">Наши чемпионы</a></li>
+							<li class="nav-item"><a class="nav-link navbar__li" href="#">Новости</a></li>
+							<li class="nav-item"><a class="nav-link navbar__li" href="about.html">О клубе</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main class="main">
+			<div class="carousel">
+				<!-- Карточка 1 -->
+				<div class="card" id="card1">
+					<div class="front">
+						<img src="assets/images/fodlash.jpg" alt="Фото Виталия Фодлаша">
+					</div>
+					<div class="back">
+						<div class="back-content">
+							<h3 class="card-title">Фодлаш Виталий</h3>
+							<p class="text-card p-lead">Тренер высшей категории.<br>
+								Старший тренер сборной Московского областного регионального отделения по кикбоксингу во всех дисциплинах.<br>
+								Главный тренер КБЕ «Пересвет» по кикбоксингу и боксу.</p>
+							<p class="text-card">Мастер спорта Украины по кикбоксингу, Мастер спорта Украины по Тайскому боксу.
+								Победитель первенства Украины в дисциплине фулл-контакт, лоу-кик, К1 (2003, 2004 год).</p>
+							<p class="text-card">С 2006 по 2013 год - инструктор по боевой и физической подготовки в спецподразделении МВД «Грифон».
+							</p>
+							<p class="text-card">С 2009 по 2010 год провел 5 профессиональных боев,в которых одержал 5 побед.
+								С 2008 по 2010 год - Чемпион Украины по Тайскому боксу, в 2014 году чемпион Москвы по Тайскому боксу.</p>
+							<p class="text-card">С 2017 года по сегодняшний день перешел на тренерскую работу в КБЕ «Пересвет», за этот период
+								воспитал и подготовил 3 Мастеров спорта, 8 Кандидатов Мастера спорта.</p>
+							<p class="text-card">В 2021 году прошел профессиональную переподготовку в Московской государственной академии физической
+								культуры и спорта на тренера преподавателя по виду спорта "Бокс".</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Карточка 2 (скрыта через CSS) -->
+				<div class="card" id="card2" style="display: none;">
+					<div class="front">
+						<img src="assets/images/konovalov.jpg"
+							alt="Фото Коновалова Игоря">
+					</div>
+					<div class="back">
+						<div class="back-content">
+							<h3 class="card-title">Коновалов Игорь</h3>
+							<p class="text-card">С 2012 по 2014 года победитель многочисленных турниров по тайскому боксу и кикбоксингу.</p>
+							<p class="text-card">В 2015 году на Открытом чемпионате Москвы и Московской области стал Мастером спорта по жиму штанги лежа.</p>
+							<p class="text-card">С 2015 года занимается тренерской деятельностью.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Карточка 3 (скрыта через CSS) -->
+				<div class="card" id="card3" style="display: none;">
+					<div class="front">
+						<img src="assets/images/prisyazhniy.jpg"
+							alt="Фото Присяжного Евгения">
+					</div>
+					<div class="back">
+						<div class="back-content">
+							<h3 class="card-title">Присяжный Евгений</h3>
+							<p class="text-card">
+								В 2009 году закончил Ставропольский государственный университет
+							</p>
+							<p class="text-card">
+								В 2011 году закончил курсы повышения квалификации по классу ММА.
+							</p>
+							<p class="text-card">
+								С 2017 года занимается тренерской деятельностью.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Кнопки навигации -->
+				<button class="nav-btn prev" onclick="prevSlide()">&#10094;</button>
+				<button class="nav-btn next" onclick="nextSlide()">&#10095;</button>
+
+				<!-- Точки -->
+				<div class="dots">
+					<span class="dot active" onclick="showSlide(0)"></span>
+					<span class="dot" onclick="showSlide(1)"></span>
+					<span class="dot" onclick="showSlide(2)"></span>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div class="footer__footer">
+				<p class="footer__rights">&copy; Пересвет г.Реутов 2026</p>
+				<a href="https://t.me/peresvet_reutov" target="_blank" class="footer__social-icon">
+					<i class="fab fa-telegram"></i>
+				</a>
+			</div>
+		</footer>
+	</div>
+
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/coatches.js"></script>
+</body>
+
+</html>

@@ -37,8 +37,8 @@
 
 .header__logo {
 	width: 20%;
-	border-top-left-radius: 20px;
-	border-bottom-right-radius: 30px;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 20px;
 	box-shadow: 4px 4px 1px rgb(99, 99, 0);
 }
 
@@ -47,20 +47,20 @@
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	font-size: 3.5rem;
+	font-size: 4rem;
 	font-family: 'Miroslav';
 	
 }
 
 .header__subtitle {
 	font-family: 'Miroslav';
-	font-size: 1.3rem;
-	letter-spacing: 1px;
+	font-size: 1.5rem;
+	letter-spacing: 1.5px;
 	text-align: center;
 	margin-top: -50px;
 	padding-top: 0;
-	color: rgb(165, 137, 11);
-	text-shadow: 1px 1px 1px black, -1px -1px 1px white;
+	color: gold;
+	text-shadow: 2px 2px 1px black, -1px -1px 1px white;
 }
 
 .header__menu {
@@ -79,30 +79,33 @@
 }
 
 .navbar__menu-title {
-	font-size: 1.1rem;
+	font-family: 'Miroslav';
+	font-size: 1.3rem;
+	letter-spacing: 1.5px;
 	font-weight: 600;
 	color: rgb(207, 230, 4);
 	text-shadow: 2px 2px 1px black;
 }
 
 .navbar__li {
-	font-size: 0.9rem;
+	font-size: 1.2rem;
 	font-weight: 700;
 	letter-spacing: 1px;
-	color: black;
+	color: white;
 	background-color: rgb(177, 145, 78);
 	opacity: 80%;
 	border-radius: 10px;
-	border: 1px solid black;
+	text-shadow: 2px 2px 2px black;
 	text-align: center;
 	margin-top: 10px;
 }
 
 .navbar__li:hover {
-	color: black;
+	color: rgb(92, 76, 40);
 	border: 1px solid brown;
-	font-weight: 700;
+	font-weight: 500;
 	background-color: rgb(216, 215, 215);
+	text-shadow: 1px 1px 1px black;
 }
 
 .main {
